@@ -1,6 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <jsp:useBean id="cart" class="registrarbeans.ShoppingCart" scope ="session" />  
-<%@page errorPage = "errorPage.jsp" %>
+
 <!DOCTYPE html>
 <html>
     <head>
