@@ -1,5 +1,5 @@
 
-package java.Common;
+package com.helper;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -36,11 +36,11 @@ public class AddNewUser extends HttpServlet {
              String query="insert into register(username,mailid,password,cpassword,mobnum,category) values('"+username+"','"+mail_Id+"','"+password+"','"+cpassword+"','"+mnum+"','"+cid+"')";
             int dbresponse = stmt.executeUpdate(query);
             if(dbresponse ==1){
-                RequestDispatcher requestDispatcher =request.getRequestDispatcher("/index.html");
+                RequestDispatcher requestDispatcher =request.getRequestDispatcher("/index.jsp");
                 requestDispatcher.include(request, response);
                 out.println("User Added Sucessfully");
             }else{
-                RequestDispatcher requestDispatcher =request.getRequestDispatcher("/index.html");
+                RequestDispatcher requestDispatcher =request.getRequestDispatcher("/index.jsp");
                 requestDispatcher.include(request, response);
                 out.println("Failure to add NewUser");
             }

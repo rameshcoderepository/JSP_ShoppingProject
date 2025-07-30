@@ -110,7 +110,7 @@
 			String name = (String) session.getAttribute("username");
 			int cusid = (Integer) session.getAttribute("cusid");
 
-			out.print("Hello, " + name + " Welcome to Shopping Home Page");
+			out.print("<h1 align='center' style=color:blue>Hello, " + name + " Welcome to Shopping Home Page</h1>");
 		} else {
 			out.print("Please login first");
 			request.getRequestDispatcher("Login.html").include(request, response);

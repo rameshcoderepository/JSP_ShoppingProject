@@ -31,7 +31,7 @@
 				<li><a href="AdminManualBilling.jsp">BILLING</a></li>
 
 				<li><a href="SalesList.jsp">SALES</a></li>
-				<li><a href="chkexpdate.jsp">Check Expiry Date</a></li>
+				
 
 				<li><a href="#" data-toggle="dropdown">CATEGORY <b></b>
 				</a>

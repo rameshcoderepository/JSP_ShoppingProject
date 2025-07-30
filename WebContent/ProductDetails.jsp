@@ -30,19 +30,19 @@
 		</div>
 	</div>
 
-	<div class="container">
+	<div >
 		<div class="row header" style="text-align: center; color: green">
 			<h3>Product Details</h3>
 		</div>
-		<table id="myTable" class="table table-striped">
-			<thead>
-				<tr>
+		<table align="center" border="10px">
+			
+				<tr style="background-color:red;color:white;padding:10px;margin:10px">
 					<th>ITEM_ID</th>
 					<th>ITEM_NAME</th>
 					<th>MFD_DATE</th>
 					<th>EXP_DATE</th>
 				</tr>
-			</thead>
+			
 			<tbody>
 
 

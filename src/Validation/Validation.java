@@ -72,7 +72,7 @@ public class Validation extends HttpServlet {
                     }
                 }
                 if (flag == 0) {
-                    RequestDispatcher requestDispatcher = request.getRequestDispatcher("/index.html");
+                    RequestDispatcher requestDispatcher = request.getRequestDispatcher("/index.jsp");
                     requestDispatcher.include(request, response);
                     out.println("Sorry! Username & Password is incorrect");
                 }

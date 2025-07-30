@@ -27,7 +27,7 @@
             String query = "insert into promise_transaction(cusid,username,amtpaid) values('" + cusid + "','" + username + "','" + totalamt + "')";
             int dbresponse = stmt.executeUpdate(query);
             if (dbresponse == 1) {
-                System.out.println("Transaction details updated sucessfully");
+               out.println("Transaction details updated sucessfully");
 
             }
 
