@@ -1,10 +1,12 @@
 package registrarbeans;
 
-import DbConnection.DbConnection;
 import java.io.IOException;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.util.ArrayList;
-import javax.servlet.jsp.JspWriter;
-import java.sql.*;
+
+import DbConnection.DbConnection;
+import jakarta.servlet.jsp.JspWriter;
 
 public class ShoppingCart {
 
